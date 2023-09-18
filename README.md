@@ -4,5 +4,3 @@ The project I have developed deals with retrieving data from a database, storing
     while ($row = mysqli_fetch_assoc($result)) {
         $dataArray[] = $row;
     }
-A practical sample of the code implementation could be found using the link below:
-http://spm1.ir/version2/show.php?token=24535
