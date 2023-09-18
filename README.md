@@ -1,0 +1,8 @@
+Perhaps twenty years ago, the world was a bit easier for the embedded system developers who coded microcontrollers, and there were a few user interfaces such as LCD. The Internet was not so popular, so there was no need to send data to a website, and no backend and web designing was required. But not; we are on the verge of the fourth industrial automation, and IoT is sprawling. So, embedded developers are now expected to hand in some jobs of full stack developers, at least being familiar with the backend to handle the data transition task, including storing and retrieving from databases, refining them, and preparing them for displaying. 
+I think PHP is one of the most popular general-purpose scripting languages geared towards web development. Please note that I said web developing language, not a programming language. W3Techs reports that as of September 2023, "PHP is used by 77.0% of all the websites whose server-side programming language we know. So, learning how to code and work with this language could be a good skill for embedded developers.
+The project I have developed deals with retrieving data from a database, storing it in a 2D array, and showing it using a graph. Regarding some differences between the array structure in C/C++ and PHP, storing the data in the array was the most confusing part. You might find in the lines below that how much easy it is:
+    while ($row = mysqli_fetch_assoc($result)) {
+        $dataArray[] = $row;
+    }
+A practical sample of the code implementation could be found using the link below:
+http://spm1.ir/version2/show.php?token=24535
